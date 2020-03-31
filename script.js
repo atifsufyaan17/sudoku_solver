@@ -125,7 +125,7 @@ function solveSudokuHelper(board,i,j){
         changeBoard(board);
         return true;
     }
-    //other cases - write your code here
+    //other cases 
     if(j==9){
         return solveSudokuHelper(board,i+1,0);
     }
@@ -146,7 +146,6 @@ function solveSudokuHelper(board,i,j){
     }
 
     return false;
-   //finish your code here
 
 }
 
